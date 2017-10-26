@@ -1,0 +1,8 @@
+GET        /                         controllers.AlertController.index
+GET        /alerts                   controllers.AlertController.getAllAlerts
+#POST       /alert                    controllers.AlertController.createAlert
+DELETE     /alert/:id                controllers.AlertController.deleteAlertById(id)
+DELETE     /alert/:email             controllers.AlertController.deleteAlertByEmail(email)
+
+#GET        /alert/:id                controllers.AlertController.findAlertById(id)
+#GET       /alert/email               controllers.AlertController.findAlertByEmail(email)

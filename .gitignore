@@ -18,3 +18,4 @@ project/plugins/project/
 project/project/
 project/target/
 test/models/TrySpec
+.idea/

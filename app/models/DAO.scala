@@ -17,11 +17,6 @@ class DAO @Inject() (appConfig: AppConfig) {
     "org.postgresql.Driver", appConfig.dbUrl, appConfig.dbUsername, appConfig.dbPassword
   )
 
-//  val xa = DriverManagerTransactor[IOLite](
-//    "", "", "", ""
-//  )
-
-
   implicit val DateTimeMeta: Meta[DateTime] =
     Meta[java.sql.Timestamp].nxmap(
       ts => new DateTime(ts.getTime()),

@@ -1,12 +1,11 @@
-# explorimmo-service-alertes
+# webimmo-service-alertes
 
 Hi
 
-Here some work on Scala I've done, while working on Explorimmo.com website.
+Here some work on Scala I've done, while doing my traineeship at FCMS.
 My mission was to manage the different alerts that an user can look for, using different tools.
 
 Used tools: Doobie API, Scala, ScalaTest (Mockito), PlayFramework, PostgreSQL ...
-
 
 Create new database 'test' in PostgreSQL: 
 `create Database test;`
